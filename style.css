@@ -1,31 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,500&display=swap");
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'STIX Two Text', serif;
+  font-family: "STIX Two Text", serif;
 }
+
 
 .container {
   max-width: 1150px;
 }
 
 nav {
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 .nav-item {
   margin: 0 10px;
   font-weight: 800;
-  padding: 8px;
+  padding: 6px;
 }
 
 .navbar-brand {
   font-weight: 800;
   font-size: 25px;
 }
-
 
 .c-image {
   max-height: 83vh;
@@ -51,12 +51,11 @@ nav {
   height: 100%;
 }
 
-
 .product-heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1.5px solid rgb(212, 212, 212);
+  border-bottom: 1.5px solid rgb(226, 226, 226);
 }
 
 .details {
@@ -66,13 +65,91 @@ nav {
 }
 
 .details p {
-  color : rgb(107, 107, 107);
+  color: rgb(107, 107, 107);
 }
 
 .tittle {
-  color : rgb(91, 91, 253);
+  color: rgb(91, 91, 253);
 }
 
 .star i {
-  color : rgb(248, 53, 53);
+  color: rgb(248, 53, 53);
+}
+
+.home-about-heading {
+  border-bottom: 1.5px solid rgb(226, 226, 226);
+}
+
+.text-info {
+  color: rgb(59, 59, 245) !important;
+}
+
+.about-sixteen-clothing ul li {
+  transition: all 0.3s;
+}
+
+.about-sixteen-clothing ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.about-sixteen-clothing p,
+ul li {
+  color: rgb(87, 86, 86);
+}
+
+.bt {
+  background-color: rgb(255, 52, 52);
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+
+.bt:hover {
+  background-color: black;
+}
+
+.about-sixteen-clothing a {
+  text-decoration: none;
+  color: white;
+}
+
+.purchase {
+  border-top: 1.5px solid rgb(226, 226, 226);
+  border-bottom: 1.5px solid rgb(226, 226, 226);
+  padding: 50px 15px;
+}
+
+.purchase p {
+  color: rgb(87, 86, 86);
+}
+
+.purchase-box {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 30px;
+}
+
+.purchase-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  text-align: center;
+}
+
+.bg-light {
+  background-color: rgb(255, 255, 255)!important;
+}
+.bg-dark {
+  background-color: rgb(39, 38, 38) !important;
+}
+
+nav {
+  box-shadow: 2px 0 7px rgb(70, 70, 70);
 }
