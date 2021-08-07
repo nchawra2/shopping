@@ -20,10 +20,10 @@
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="index.html" class="nav-link active">Home</a>
+              <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="products.html" class="nav-link">Our Products</a>
+              <a href="products.html" class="nav-link active">Our Products</a>
             </li>
             <li class="nav-item">
               <a href="" class="nav-link">About Us</a>
@@ -36,98 +36,20 @@
       </div>
     </nav>
 
-    <header class="header">
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="images/slide_01.jpg"
-              class="d-block w-100 c-image"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <div class="caption-content">
-                <h5 class="text-danger fw-bold display-6 text-uppercase">
-                  Best Offer
-                </h5>
-                <p class="display-3 fw-bolder text-uppercase">
-                  New Arrivals On Sale.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="images/slide_02.jpg"
-              class="d-block w-100 c-image"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <div class="caption-content">
-                <h5 class="text-danger fw-bold display-6 text-uppercase">
-                  Flash Deals
-                </h5>
-                <p class="display-3 fw-bolder text-uppercase">
-                  get your favorite products
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="images/slide_03.jpg"
-              class="d-block w-100 c-image"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <div class="caption-content">
-                <h5 class="text-danger fw-bold display-6 text-uppercase">
-                  Last Minute
-                </h5>
-                <p class="display-3 fw-bolder text-uppercase">
-                  get last minute deals
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <div class="products-header">
+      <h4 class="text-danger fw-bold text-uppercase">new arrivals</h4>
+      <p class="display-3">SIXTEEN PRODUCTS</p>
+    </div>
 
-    <section class="latest-products mt-5">
+    <section class="all-products">
       <div class="container">
-        <div class="product-heading">
-          <h3>Latest Products</h3>
-          <a href="products.html" class="text-danger text-uppercase fw-bold h6">view All Products</a>
+        <div class="text-uppercase all-products-tabs">
+          <a href="#">All Products</a>
+          <a href="#">Featured</a>
+          <a href="#">flash deal</a>
+          <a href="#">last minute</a>
         </div>
-
-        <div class="row mt-5 p-3">
+        <div class="row mt-5 p-2">
           <div class="col-md-4">
             <div class="card">
               <img src="images/product_01.jpg" class="card-img-top" alt="..." />
@@ -211,7 +133,7 @@
           </div>
         </div>
 
-        <div class="row mt-4 p-3">
+        <div class="row mt-4 p-2">
           <div class="col-md-4">
             <div class="card">
               <img src="images/product_04.jpg" class="card-img-top" alt="..." />
@@ -294,72 +216,31 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <section class="about-sixteen-clothing mt-5">
-      <div class="container">
-        <div class="home-about-heading">
-          <h3>About Sixteen Clothing</h3>
-        </div>
-
-        <div class="row mt-5">
-          <div class="col-md-6">
-            <h5 class="text-info">Looking for the best products?</h5>
-            <p class="mt-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias
-              rerum a numquam, quibusdam porro odio incidunt, aliquid recusandae
-              officia nisi inventore illum nobis eius repellat eaque non id.
-              Corporis, maiores?
-            </p>
-            <ul type="square">
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Lorem ipsum dolor sit amet</li>
-              <li>Lorem ipsum dolor sit amet</li>
-            </ul>
-
-            <a href="#" class="bt">Read More</a>
-          </div>
-          <div class="col-md-6">
-            <img
-              src="images/feature-image.jpg"
-              height="300"
-              alt="about section image"
-            />
-          </div>
+        <div class="mt-5 page-count">
+          <ul class="pagination pagination-lg">
+            <li class="page-item" aria-current="page">
+              <span class="page-link">1</span>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">2</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+          </ul>
         </div>
       </div>
     </section>
-
-    <div class="container">
-      <section class="purchase mt-5">
-        <div class="purchase-box">
-          <div class="purchase-detail">
-            <p class="text-info h6">
-              Creative & Unique <strong>Sixteen</strong> Products
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
-              corporis amet elite author nulla.
-            </p>
-          </div>
-          <div class="purchase-btn">
-            <a href="#" class="bt">Purchase Now</a>
-          </div>
-        </div>
-      </section>
-    </div>
 
     <footer class="mt-5 mb-5">
       <div class="container">
-        <p class='text-capitalize'>All copyright &copy; 2021 content goes here.</p>
+        <p class="text-capitalize">
+          All copyright &copy; 2021 content goes here.
+        </p>
       </div>
     </footer>
 
     <script src="bootstrap/js/bootstrap.bundle.js"></script>
-    <script src="app.js"></script>
     <script src="https://unpkg.com/phosphor-icons"></script>
   </body>
 </html>
