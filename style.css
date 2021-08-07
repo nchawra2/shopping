@@ -160,9 +160,7 @@ footer p {
   text-align: center;
 }
 
-
 /*/////////////////////// PRODUCTS PAGE //////////////////////////////////////////////////*/
-
 
 .products-header {
   background: url("./images/products-heading.jpg") no-repeat center;
@@ -212,5 +210,58 @@ footer p {
   border-bottom: var(--border-bottom);
 }
 
-
 /*/////////////////////// ABOUT PAGE //////////////////////////////////////////////////*/
+.about-header {
+  background: url("./images/about-heading.jpg") no-repeat center;
+  height: 350px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  margin-top: 100px;
+}
+
+.background-heading {
+  border-bottom: var(--border-bottom);
+}
+
+.find-us-at {
+  border-top: var(--border-bottom);
+  padding: 20px 0px;
+}
+
+.find-us-at small {
+  background-color: rgb(240, 240, 240);
+  font-size: 30px;
+  padding: 10px;
+  transition: all 0.5s;
+}
+
+.background p {
+  color: rgb(87, 86, 86);
+}
+
+.find-us-at small:hover {
+  background-color: rgb(248, 53, 53);
+  color: white;
+}
+
+.team {
+  margin-top: 120px;
+}
+
+.team-heading {
+  border-bottom: var(--border-bottom);
+}
+
+.team p {
+  color: rgb(87, 86, 86);
+}
+
+.card-text {
+  font-size: 15px;
+}
