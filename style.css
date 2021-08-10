@@ -26,6 +26,25 @@ a {
   background-color: rgb(39, 38, 38) !important;
 }
 
+.bt {
+  background-color: rgb(255, 52, 52);
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+
+.bt:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.b-t {
+  border-top: var(--border-bottom);
+}
+
 /*/////////////////////// INDEX PAGE //////////////////////////////////////////////////*/
 
 nav {
@@ -115,18 +134,7 @@ ul li {
   color: rgb(87, 86, 86);
 }
 
-.bt {
-  background-color: rgb(255, 52, 52);
-  padding: 10px 20px;
-  color: white;
-  display: inline-block;
-  border-radius: 6px;
-  transition: all 0.5s;
-}
 
-.bt:hover {
-  background-color: black;
-}
 
 .about-sixteen-clothing a {
   text-decoration: none;
@@ -264,4 +272,41 @@ footer p {
 
 .card-text {
   font-size: 15px;
+}
+
+/*/////////////////////// CONTACT PAGE //////////////////////////////////////////////////*/
+
+.contact-header {
+  background: url("./images/contact-heading.jpg") no-repeat center;
+  height: 350px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.location {
+  margin-top: 100px;
+}
+
+.location-heading {
+  border-bottom: var(--border-bottom);
+}
+
+.location p {
+  color: rgb(87, 86, 86);
+}
+
+.map-location {
+  height: 100%;
+  width: 100%;
+}
+
+.send-msg {
+  margin-top: 100px;
+}
+
+.send-msg-heading {
+  border-bottom: var(--border-bottom);
 }
